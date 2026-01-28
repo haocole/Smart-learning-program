@@ -1,0 +1,13 @@
+# Program to return the sum of two integer numbers
+
+def main():
+    num1 = int(input("Enter the first integer: "))
+    num2 = int(input("Enter the second integer: "))
+
+    result = num1 + num2
+
+    print(f"The sum of {num1} and {num2} is: {result}")
+
+
+if __name__ == "__main__":
+    main()
